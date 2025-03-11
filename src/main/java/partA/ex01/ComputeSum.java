@@ -11,7 +11,11 @@ public class ComputeSum {
         Scanner scan = new Scanner(System.in);
         int total = 0;
 
+<<<<<<< HEAD
         int all = 0;
+=======
+      int all = 0;
+>>>>>>> 63d9cb9e07e7ca6abcd11679fb61ac84eed8bfe7
 
         int count = 10;
 
@@ -21,6 +25,7 @@ public class ComputeSum {
             total = scan.nextInt();
 
 
+<<<<<<< HEAD
             if (total == 0){
                 break;
             }
@@ -29,6 +34,16 @@ public class ComputeSum {
             }
 
         }
+=======
+                if (total == 0){
+                    break;
+                }
+                else {
+                    all += total;
+                }
+
+            }
+>>>>>>> 63d9cb9e07e7ca6abcd11679fb61ac84eed8bfe7
 
 
 
