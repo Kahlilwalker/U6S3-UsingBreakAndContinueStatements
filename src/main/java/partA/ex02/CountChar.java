@@ -9,10 +9,10 @@ public class CountChar {
 
 //            if (str.charAt(i) != 'w')
 //                continue;
-
+        System.out.println(2 % 3);
         count++;
 
-       str += ("Counting w : " + count );
+        str += ("Counting w : " + count );
         return str;
     }
 
@@ -22,5 +22,4 @@ public class CountChar {
     }
 
 
-    }
-
+}

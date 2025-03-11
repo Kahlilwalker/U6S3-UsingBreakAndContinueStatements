@@ -4,10 +4,21 @@ public class LoopWithContinue {
     public static String loopWithContinue() {
         String response = "";
 
-        /**
-         * Your code goes here
-         */
 
+        for( int i = 1 ; i < 10 ; i++ ) {
+
+            if( i < 9 && i > 4) {
+                continue;
+
+            }
+
+            response += ("The number is " + i +"\n" );
+
+            if( i == 10 ) {
+                break;
+            }
+
+        }
 
 
         return response;

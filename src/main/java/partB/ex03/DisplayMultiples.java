@@ -1,15 +1,31 @@
 package partB.ex03;
 
+import java.util.Scanner;
+
 public class DisplayMultiples {
     public static String displayWithMultiples() {
         String response = "";
 
-        /**
-         * Your code goes here
-         */
+        Scanner myObj = new Scanner(System.in);  // Create a Scanner object
+        System.out.println("Enter number");
 
+        double s  = myObj.nextDouble();
+        double sum = 0;
 
+        for( int i = 1 ; i < 50; i++ ) {
 
+            if( i % s != 0 ) {
+                continue;
+
+            }
+
+            response += (+ i +"\n" );
+
+            if( i > 50 ) {
+                break;
+            }
+
+        }
         return response;
     }
 
